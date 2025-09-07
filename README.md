@@ -34,3 +34,13 @@ https://www.nerdfonts.com/font-downloads
 [windows and alacritty]
 open font file and press install button
 set toml file to alacritty config file
+
+### Install clipboard
+```
+curl -LO https://github.com/equalsraf/win32yank/releases/download/v0.0.4/win32yank-x86.zip
+unzip win32yank-x86.zip
+sudo chmod +x win32yank.exe
+sudo cp win32yank.exe /usr/local/bin
+```
+follow belo link
+https://qiita.com/hwatahik/items/32279372ea7182d75677
